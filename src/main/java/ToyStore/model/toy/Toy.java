@@ -28,8 +28,13 @@ public class Toy implements Serializable, Item {
     }
 
     @Override
-    public void setWeight() {
-       this.weight =weight;
+    public void setWeight(int weight) {
+       this.weight = this.weight;
+    }
+
+    @Override
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
     public int getWeight() {
